@@ -386,7 +386,6 @@ IME_CHECK(winTitle)
     Send, {Home}%num%
     수강신청()
     ; 여기에서 수강신청 버튼을 눌러주지만 서버가 버벅일 경우 씹힐 수 있음. 주의!
-    Return
 }
 
 삭제()
@@ -395,7 +394,6 @@ IME_CHECK(winTitle)
     ; Click, 269, 293
     ControlFocus, MSMaskWndClass1, 수강신청
     Send, {Home}{Delete 11}
-    Return
 }
 
 수강신청()
@@ -406,7 +404,6 @@ IME_CHECK(winTitle)
     xx += ww / 2
     yy += hh / 2
     Click, %xx%, %yy%
-    Return
 }
 
 수강삭제()
@@ -416,7 +413,6 @@ IME_CHECK(winTitle)
     xx += ww / 2
     yy += hh / 2
     Click, %xx%, %yy%
-    Return
 }
 
 
